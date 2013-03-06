@@ -33,13 +33,13 @@ Delete Branch:
 
 
 
-
 Switch to master branch and update source code:
 
     git checkout master  (Switched to branch 'master')
     git pull origin master (getting update in main source)
 
-Merge master & chitresh branch:
+Merge master branch & chitresh branch:
+
     git merge --no-ff chitresh (merged master & chitresh)
     git push origin master (checkin in master code)
 
