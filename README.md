@@ -31,8 +31,13 @@ Delete Branch:
 
     git push origin :chitresh (delete branch chitresh)
 
+Delete File and then commit:
 
-
+    git rm filename.extn
+    git add -u
+    git commit -m "message"
+    git push origin master
+    
 Switch to master branch and update source code:
 
     git checkout master  (Switched to branch 'master')
