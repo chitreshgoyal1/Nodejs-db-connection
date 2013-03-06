@@ -20,7 +20,7 @@ Add and Commit:
 Push in branch:
 
     git push origin master (if need to checkin in master branch)
-  or
+    or
     git push origin chitresh (if need to checkin in chitresh branch)
 
 Merge:
@@ -48,13 +48,13 @@ Suppose Conflicts:
 
     git add filename.rb ( you can use "git add ." also)
     git commit -m "my changes"
-      --CONFLICT (content): Merge conflict in filename.rb
-      --Automatic merge failed; fix conflicts and then commit the result.
+    --CONFLICT (content): Merge conflict in filename.rb
+    --Automatic merge failed; fix conflicts and then commit the result.
 
 Resolve Conflicts:
     git mergetool
-      --Just to use my changes... no
-      --their changes...
+    --Just to use my changes... no
+    --their changes...
 
     git checkout --ours filename.rb
     git checkout --theirs filename.rb
