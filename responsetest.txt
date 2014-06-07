@@ -1,0 +1,10 @@
+{
+   "data":{
+      "deviceID":"XYZ",
+      "deviceName":"XYZ",
+      "locationData":{
+         "longitude":"26.935508",
+         "latitude":"75.797850"
+      }
+   }
+}
